@@ -1,0 +1,14 @@
+import numpy
+
+arr = numpy.array([])
+
+for i in range(5):
+    num = int(input("Enter number to multiply: "))
+    arr = numpy.append(arr, num)
+
+print(arr)
+mul = 1
+for i in arr:
+    mul*=i
+
+print(mul)
